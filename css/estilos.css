@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,100&display=swap');
+*{
+	margin: 2px;
+	padding: 0px;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+#header{
+	background-image: linear-gradient(#ee9ca7, #ffdde1);
+	min-height: 80px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.botonera{
+	color: #000;
+	text-decoration: none;
+}
+
+.logo a:hover {
+	transform: scale(2,1);
+}	 
+#header ul{
+	list-style: none;
+}
+#header li{
+	display: inline-block;
+	padding: 0 20px;
+	margin-right: 180px;
+	font-weight: 500;
+	font-size: 25px;
+	color:#000;
+	text-decoration: none;
+}
+@media all and (min-width: 768px){
+	#header{
+	background-color: #ff00ff;
+	min-height: 80px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	}
+
+	.botonera{
+	color: #000;
+	text-decoration: none;
+
+	}
+
+	#header ul{
+	list-style: none;
+	}
+	#header li{
+	display: inline-block;
+	padding: 0 20px;
+	margin-right: 180px;
+	font-weight: 500;
+	font-size: 25px;
+	color:#000;
+	text-decoration: none;
+	}
+}
+.banner{
+	margin-top:10px;
+	background-image: url(../media/unas5.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 400px;
+	background-position: center center;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+}
+.banner{
+	margin-top:10px;
+	background-image: url(../media/unas5.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 400px;
+	background-position: center center;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	}
+}
+.banner h1{
+  	font-size: 100px;
+  	padding: 800px 250px;
+  	text-align: center;
+}
+@media all and (min-width: 768px){
+	.banner{
+	margin-top:10px;
+	background-image: url(../media/unas5.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 400px;
+	background-position: center center;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	}
+	.banner{
+	margin-top:10px;
+	background-image: url(../media/unas5.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 400px;
+	background-position: center center;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	}
+}
+
+}
+
+table{
+	border:#ff00ff 5px solid;
+	margin:auto;
+}
+td{
+	color: #000 solid;
+}
+.esculpidasCurso{
+	background-image: url(../media/esculpidasCurso.jpg);
+	background-position: center;
+	padding: 46px;
+	background-repeat: no-repeat;
+}
+
+.esculpidasCurso2{
+	background-image: url(../media/esculpidasCurso2.jpg);
+	background-position: center;
+	padding: 46px;
+	background-repeat: no-repeat;
+}
+.manicuriaRusa{
+	background-image: url(../media/manicuriaRusa.jpg);
+	background-position: center;
+	padding: 46px;
+	background-repeat: no-repeat;
+}
+.gelificadas{
+	background-image: url(../media/gelificadas.jpg);
+	background-position: center;
+	padding: 46px;
+	background-repeat: no-repeat;
+}
+	
+h2{
+	font-size: 50px;
+  	text-align: center;
+  	color:#000;
+}
+h3{
+	color:#000;
+	background-image: linear-gradient(#ee9ca7, #ffdde1);
+	display: inline-block;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 0.5em 0.75em;
+	align-content: center;
+	border:2px solid #000;
+}
+h3 a:hover{
+ 	background-color:#ee9ca7 ;
+ 	color: #000;
+  	padding: 10px;
+}
+p{
+	padding: 10px;
+	font-size: 30px;
+	font-weight: 500;
+}
+@media all and (min-width: 768px){
+	p{
+
+	padding: 200px;
+	font-size: 30px;
+	font-weight: 500;
+	}
+}
+.servicios{
+	padding: 10px;
+	margin-left: 91px;
+}
+#servicios{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	margin:16px;
+	width:191px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.esmaltado{
+	background-image: url(../media/esmaltadosemi.jpg);
+	background-repeat:no-repeat;
+	width: 400px;
+	height: 200px;
+}
+.esculpida{
+	background-image: url(../media/esculpidas.jpg);
+	background-repeat:no-repeat;
+	width: 400px;
+	height: 200px;
+}
+.kapping{
+	background-image: url(../media/kapping.jpg);
+	background-repeat:no-repeat;
+	width: 400px;
+	height: 200px;
+}
+.footer{
+	background-image: linear-gradient(#ee9ca7, #ffdde1);
+	min-height: 80px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer ul{
+	list-style: none;
+	margin-left: 200px;
+}
+.footer li{
+	display: inline-block;
+	padding: 0 20px;
+	margin-right: 180px;
+	font-weight: 500;
+	font-size: 25px;
+}
+@media all and (min-width: 768px){
+	.footer{
+	background-color: #ff00ff;
+	min-height: 80px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+		}
+		.footer ul{
+	list-style: none;
+	margin-left: 200px;
+		}
+		.footer li{
+	display: inline-block;
+	padding: 0 20px;
+	margin-right: 180px;
+	font-weight: 500;
+	font-size: 25px;
+		}
+}
+.whatsapp{
+	width: 5px;
+	position: fixed;
+	bottom: 10px;
+	right: 50px;
+}
+.whatsappPink{
+	width: 50px;
+	height: 50px;
+}
+
+
